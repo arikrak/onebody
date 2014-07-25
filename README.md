@@ -1,4 +1,4 @@
-# Shul.indo OneBody
+# Shul.info OneBody
 
 OneBody is open-source, web-based social networking, email list, online directory, and lightweight document management software for shuls.
 

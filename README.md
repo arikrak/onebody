@@ -1,14 +1,10 @@
-# Church.IO OneBody
+# Shul.indo OneBody
 
-[![Build Status](https://travis-ci.org/churchio/onebody.png)](https://travis-ci.org/churchio/onebody)
-[![Code Climate](https://codeclimate.com/github/churchio/onebody.png)](https://codeclimate.com/github/churchio/onebody)
-http://church.io
-
-OneBody is open-source, web-based social networking, email list, online directory, and lightweight document management software for churches.
+OneBody is open-source, web-based social networking, email list, online directory, and lightweight document management software for shuls.
 
 *It's like a cross between Facebook, Google Groups, and SharePoint, but it's completely free and open source and awesome.*
 
-OneBody is built with Ruby on Rails and MySQL, and has been in production use at churches for over seven years!
+OneBody is built with Ruby on Rails and MySQL.
 
 You can see lots of [screenshots here](https://www.flickr.com/photos/timothymorgan/sets/72157644451251789).
 
@@ -26,7 +22,7 @@ Operating System: Windows, Mac, or Linux
 
 1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads). It's free and it runs on Windows, Mac, and Linux.
 2. Install [Vagrant](http://docs.vagrantup.com/v2/installation/index.html).
-3. `git clone git://github.com/churchio/onebody.git && cd onebody`
+3. `git clone git://github.com/arikrak/onebody.git && cd onebody`
 4. `vagrant up`
 
 Now visit the site running in development mode at localhost:8080
@@ -44,7 +40,7 @@ Operating System: Mac or Linux (See Vagrant above if you're on Windows)
 1. Install Ruby 2.1.2 or higher (we recommend you use [RVM](https://rvm.io/)).
 2. Install MySQL.
 3. Install Git.
-4. `git clone git://github.com/churchio/onebody.git && cd onebody`
+4. `git clone git://github.com/arikrak/onebody.git && cd onebody`
 5. `mysql -u root -e "create database onebody_dev default character set utf8 default collate utf8_general_ci; grant all on onebody_dev.* to onebody@localhost identified by 'onebody';"`
 6. `cp config/database.yml{.example,}`
 7. `bundle install`
@@ -67,7 +63,7 @@ rspec
 
 * IRC channel #church.io on Freenode (try the [web-based IRC client](https://webchat.freenode.net/?channels=#church.io))
 * [Wiki](http://wiki.github.com/churchio/onebody) - There is some (possibly outdated) information here. We'll work to clean this up shortly after releasing 3.0.
-* [Google Group](http://groups.google.com/group/churchio) - Community of people building open source church software. If you're stuck, ask nicely for some help and you will probably get it.
+* [Google Group](http://groups.google.com/group/churchio) - Community of people building open source congregation software. If you're stuck, ask nicely for some help and you will probably get it.
 
 ## Contributing
 
